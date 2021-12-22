@@ -1,0 +1,16 @@
+[03-Sep-2021 23:17:41 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/chennaispi/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/chennaispi/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[09-Sep-2021 08:35:19 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/chennaispi/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/chennaispi/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[09-Sep-2021 13:43:20 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/chennaispi/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/chennaispi/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[21-Sep-2021 20:52:24 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/chennaispi/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/chennaispi/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17

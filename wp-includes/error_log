@@ -1,0 +1,62 @@
+[03-Sep-2021 23:15:08 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/chennaispi/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/chennaispi/public_html/wp-includes/template-canvas.php on line 12
+[07-Sep-2021 21:37:29 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/chennaispi/public_html/wp-includes/embed-template.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/chennaispi/public_html/wp-includes/embed-template.php on line 11
+[07-Sep-2021 21:37:29 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/chennaispi/public_html/wp-includes/embed-template.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/chennaispi/public_html/wp-includes/embed-template.php on line 11
+[07-Sep-2021 21:37:31 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/chennaispi/public_html/wp-includes/embed-template.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/chennaispi/public_html/wp-includes/embed-template.php on line 11
+[07-Sep-2021 21:37:36 Asia/Calcutta] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/chennaispi/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 21:37:36 Asia/Calcutta] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/chennaispi/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 21:37:36 Asia/Calcutta] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/chennaispi/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 21:37:36 Asia/Calcutta] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/chennaispi/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 21:37:36 Asia/Calcutta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/chennaispi/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 21:37:36 Asia/Calcutta] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/chennaispi/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 21:37:36 Asia/Calcutta] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/chennaispi/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 21:37:36 Asia/Calcutta] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/chennaispi/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 21:37:36 Asia/Calcutta] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/chennaispi/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 21:37:36 Asia/Calcutta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/chennaispi/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 21:37:37 Asia/Calcutta] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/chennaispi/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 21:37:37 Asia/Calcutta] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/chennaispi/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 21:37:37 Asia/Calcutta] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/chennaispi/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 21:37:37 Asia/Calcutta] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/chennaispi/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 21:37:37 Asia/Calcutta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/chennaispi/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 21:37:39 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/chennaispi/public_html/wp-includes/embed-template.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/chennaispi/public_html/wp-includes/embed-template.php on line 11
+[07-Sep-2021 21:37:53 Asia/Calcutta] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/chennaispi/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 21:37:53 Asia/Calcutta] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/chennaispi/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 21:37:53 Asia/Calcutta] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/chennaispi/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 21:37:53 Asia/Calcutta] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/chennaispi/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 21:37:53 Asia/Calcutta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/chennaispi/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 21:37:54 Asia/Calcutta] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/chennaispi/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 21:37:54 Asia/Calcutta] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/chennaispi/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 21:37:54 Asia/Calcutta] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/chennaispi/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 21:37:54 Asia/Calcutta] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/chennaispi/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 21:37:54 Asia/Calcutta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/chennaispi/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 21:37:55 Asia/Calcutta] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/chennaispi/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 21:37:55 Asia/Calcutta] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/chennaispi/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 21:37:55 Asia/Calcutta] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/chennaispi/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 21:37:55 Asia/Calcutta] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/chennaispi/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 21:37:55 Asia/Calcutta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/chennaispi/public_html/wp-includes/class-simplepie.php on line 5
+[09-Sep-2021 08:33:16 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/chennaispi/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/chennaispi/public_html/wp-includes/template-canvas.php on line 12
+[09-Sep-2021 13:41:10 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/chennaispi/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/chennaispi/public_html/wp-includes/template-canvas.php on line 12
+[21-Sep-2021 20:48:16 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/chennaispi/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/chennaispi/public_html/wp-includes/template-canvas.php on line 12

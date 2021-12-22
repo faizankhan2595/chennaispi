@@ -1,0 +1,899 @@
+0000.000 (0) Opened log file at time: Thu, 18 Nov 2021 06:13:31 +0000 on https://www.chennaispinecare.com
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.63 WP: 5.8.2 PHP: 7.3.31-2+0~20211022.89+debian9~1.gbp745ac7 (fpm-fcgi, Linux 226898.cloudwaysapps.com 5.12.2-x86_64-linode144 #1 SMP Mon May 10 13:10:23 EDT 2021 x86_64) MySQL: 5.7.34-log (max packet size=134217728) WPLANG: en_US Server: Apache/2.4.25 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 99999M (used: 91.7M | 94M) multisite: N openssl: OpenSSL 1.1.0l  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.001 (0) Free space on disk containing Updraft's temporary directory: 22333.6 MB
+0000.002 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.003 (0) Semaphore (fd, wp_options) being initialised
+0000.005 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.006 (0) Set semaphore last lock (fd) time to 2021-11-18 06:13:31
+0000.006 (0) Semaphore lock (fd) complete
+0000.008 (0) Backup run: resumption=0, nonce=6fe1ed562dc7, file_nonce=6fe1ed562dc7 begun at=1637216011 (0s ago), job type=backup
+0000.009 (0) Scheduling a resumption (1) after 300 seconds (1637216311) in case this run gets aborted
+0000.022 (0) Checking if we have a zip executable available
+0000.025 (0) Testing: /usr/bin/zip
+0000.042 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.052 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.053 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.053 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.054 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.066 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.067 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.072 (0) Working binary zip found: /usr/bin/zip
+0000.076 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.077 (0) Creation of backups of directories: beginning
+0000.078 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.476 (0) Total entities for the zip file: 2338 directories, 12271 files (0 skipped as non-modified), 175.5 MB
+0000.479 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.480 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.481 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.486 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.487 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.488 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.489 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.490 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.492 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 12271 files batched, 885 (885) added so far); re-opening (prior size: 0 KB)
+0003.738 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: size is now: 10.40 MB
+0003.739 (0) A useful amount of data was added after this amount of zip processing: 4.1 s (normalised: 4.1 s, rate: 6169.3 KB/s)
+0003.740 (0) Performance is good - will increase the amount of data we attempt to batch (time=4.1495590209961, normalised_time=4.1495563300149, max_time=3.7394368648529, data points known=1, old_max_bytes=26214400, new_max_bytes=37904389)
+0003.741 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 900 files added (on-disk size: 10681.9 KB)
+0003.742 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 1000 files added (on-disk size: 10681.9 KB)
+0003.743 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 1100 files added (on-disk size: 10681.9 KB)
+0003.744 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 1200 files added (on-disk size: 10681.9 KB)
+0003.746 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 1300 files added (on-disk size: 10681.9 KB)
+0003.747 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 1400 files added (on-disk size: 10681.9 KB)
+0003.748 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 1500 files added (on-disk size: 10681.9 KB)
+0003.749 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 1600 files added (on-disk size: 10681.9 KB)
+0003.750 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 1700 files added (on-disk size: 10681.9 KB)
+0003.751 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 1800 files added (on-disk size: 10681.9 KB)
+0003.753 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (11.4 MB, 12271 files batched, 1001 (1886) added so far); re-opening (prior size: 10681.9 KB)
+0004.287 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: size is now: 14.00 MB
+0004.290 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 1900 files added (on-disk size: 14341.4 KB)
+0004.291 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 2000 files added (on-disk size: 14341.4 KB)
+0004.292 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 2100 files added (on-disk size: 14341.4 KB)
+0004.294 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 2200 files added (on-disk size: 14341.4 KB)
+0004.295 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 2300 files added (on-disk size: 14341.4 KB)
+0004.297 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 2400 files added (on-disk size: 14341.4 KB)
+0004.298 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 2500 files added (on-disk size: 14341.4 KB)
+0004.300 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 2600 files added (on-disk size: 14341.4 KB)
+0004.302 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 2700 files added (on-disk size: 14341.4 KB)
+0004.304 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 2800 files added (on-disk size: 14341.4 KB)
+0004.305 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.1 MB, 12271 files batched, 1001 (2887) added so far); re-opening (prior size: 14341.4 KB)
+0004.836 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: size is now: 17.10 MB
+0004.838 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 2900 files added (on-disk size: 17507.5 KB)
+0004.840 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 3000 files added (on-disk size: 17507.5 KB)
+0004.841 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 3100 files added (on-disk size: 17507.5 KB)
+0004.842 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 3200 files added (on-disk size: 17507.5 KB)
+0004.843 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 3300 files added (on-disk size: 17507.5 KB)
+0004.845 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 3400 files added (on-disk size: 17507.5 KB)
+0004.846 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 3500 files added (on-disk size: 17507.5 KB)
+0004.847 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 3600 files added (on-disk size: 17507.5 KB)
+0004.849 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 3700 files added (on-disk size: 17507.5 KB)
+0004.850 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 3800 files added (on-disk size: 17507.5 KB)
+0004.851 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (1.8 MB, 12271 files batched, 1001 (3888) added so far); re-opening (prior size: 17507.5 KB)
+0005.171 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 3900 files added (on-disk size: 18481.6 KB)
+0005.172 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 4000 files added (on-disk size: 18481.6 KB)
+0005.174 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 4100 files added (on-disk size: 18481.6 KB)
+0005.175 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 4200 files added (on-disk size: 18481.6 KB)
+0005.176 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 4300 files added (on-disk size: 18481.6 KB)
+0005.178 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 4400 files added (on-disk size: 18481.6 KB)
+0005.179 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 4500 files added (on-disk size: 18481.6 KB)
+0005.180 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 4600 files added (on-disk size: 18481.6 KB)
+0005.182 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 4700 files added (on-disk size: 18481.6 KB)
+0005.183 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 4800 files added (on-disk size: 18481.6 KB)
+0005.184 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.5 MB, 12271 files batched, 1001 (4889) added so far); re-opening (prior size: 18481.6 KB)
+0005.805 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 4900 files added (on-disk size: 20916.9 KB)
+0005.806 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 5000 files added (on-disk size: 20916.9 KB)
+0005.808 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 5100 files added (on-disk size: 20916.9 KB)
+0005.809 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 5200 files added (on-disk size: 20916.9 KB)
+0005.813 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 5300 files added (on-disk size: 20916.9 KB)
+0005.814 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 5400 files added (on-disk size: 20916.9 KB)
+0005.819 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 5500 files added (on-disk size: 20916.9 KB)
+0005.820 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 5600 files added (on-disk size: 20916.9 KB)
+0005.821 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 5700 files added (on-disk size: 20916.9 KB)
+0005.823 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 5800 files added (on-disk size: 20916.9 KB)
+0005.826 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.5 MB, 12271 files batched, 1001 (5890) added so far); re-opening (prior size: 20916.9 KB)
+0007.606 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: size is now: 25.00 MB
+0007.608 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 5900 files added (on-disk size: 25624.4 KB)
+0007.609 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 6000 files added (on-disk size: 25624.4 KB)
+0007.610 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 6100 files added (on-disk size: 25624.4 KB)
+0007.612 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 6200 files added (on-disk size: 25624.4 KB)
+0007.613 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 6300 files added (on-disk size: 25624.4 KB)
+0007.616 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 6400 files added (on-disk size: 25624.4 KB)
+0007.622 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 6500 files added (on-disk size: 25624.4 KB)
+0007.624 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 6600 files added (on-disk size: 25624.4 KB)
+0007.626 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 6700 files added (on-disk size: 25624.4 KB)
+0007.632 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 6800 files added (on-disk size: 25624.4 KB)
+0007.633 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (2.7 MB, 12271 files batched, 1001 (6891) added so far); re-opening (prior size: 25624.4 KB)
+0008.551 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 6900 files added (on-disk size: 27211 KB)
+0008.552 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 7000 files added (on-disk size: 27211 KB)
+0008.553 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 7100 files added (on-disk size: 27211 KB)
+0008.554 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 7200 files added (on-disk size: 27211 KB)
+0008.555 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 7300 files added (on-disk size: 27211 KB)
+0008.561 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 7400 files added (on-disk size: 27211 KB)
+0008.562 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 7500 files added (on-disk size: 27211 KB)
+0008.564 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 7600 files added (on-disk size: 27211 KB)
+0008.568 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 7700 files added (on-disk size: 27211 KB)
+0008.570 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 7800 files added (on-disk size: 27211 KB)
+0008.573 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (24.1 MB, 12271 files batched, 1001 (7892) added so far); re-opening (prior size: 27211 KB)
+0010.860 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: size is now: 35.10 MB
+0010.864 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 7900 files added (on-disk size: 35989.1 KB)
+0010.865 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 8000 files added (on-disk size: 35989.1 KB)
+0010.866 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 8100 files added (on-disk size: 35989.1 KB)
+0010.868 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 8200 files added (on-disk size: 35989.1 KB)
+0010.869 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 8300 files added (on-disk size: 35989.1 KB)
+0010.870 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 8400 files added (on-disk size: 35989.1 KB)
+0010.871 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 8500 files added (on-disk size: 35989.1 KB)
+0010.873 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 8600 files added (on-disk size: 35989.1 KB)
+0010.875 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 8700 files added (on-disk size: 35989.1 KB)
+0010.878 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 8800 files added (on-disk size: 35989.1 KB)
+0010.879 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (11 MB, 12271 files batched, 1001 (8893) added so far); re-opening (prior size: 35989.1 KB)
+0011.971 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 8900 files added (on-disk size: 39695.9 KB)
+0011.973 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 9000 files added (on-disk size: 39695.9 KB)
+0011.974 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 9100 files added (on-disk size: 39695.9 KB)
+0011.975 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 9200 files added (on-disk size: 39695.9 KB)
+0011.978 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 9300 files added (on-disk size: 39695.9 KB)
+0011.979 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 9400 files added (on-disk size: 39695.9 KB)
+0011.982 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 9500 files added (on-disk size: 39695.9 KB)
+0011.984 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 9600 files added (on-disk size: 39695.9 KB)
+0011.986 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 9700 files added (on-disk size: 39695.9 KB)
+0011.992 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 9800 files added (on-disk size: 39695.9 KB)
+0011.994 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (33.4 MB, 12271 files batched, 1001 (9894) added so far); re-opening (prior size: 39695.9 KB)
+0014.038 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: size is now: 49.10 MB
+0014.040 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 9900 files added (on-disk size: 50323.7 KB)
+0014.042 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 10000 files added (on-disk size: 50323.7 KB)
+0014.044 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 10100 files added (on-disk size: 50323.7 KB)
+0014.054 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 10200 files added (on-disk size: 50323.7 KB)
+0014.057 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 10300 files added (on-disk size: 50323.7 KB)
+0014.058 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 10400 files added (on-disk size: 50323.7 KB)
+0014.060 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 10500 files added (on-disk size: 50323.7 KB)
+0014.061 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 10600 files added (on-disk size: 50323.7 KB)
+0014.062 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 10700 files added (on-disk size: 50323.7 KB)
+0014.063 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 10800 files added (on-disk size: 50323.7 KB)
+0014.065 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.6 MB, 12271 files batched, 1001 (10895) added so far); re-opening (prior size: 50323.7 KB)
+0014.758 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 10900 files added (on-disk size: 53526.9 KB)
+0014.760 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 11000 files added (on-disk size: 53526.9 KB)
+0014.761 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 11100 files added (on-disk size: 53526.9 KB)
+0014.762 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 11200 files added (on-disk size: 53526.9 KB)
+0014.764 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 11300 files added (on-disk size: 53526.9 KB)
+0014.765 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 11400 files added (on-disk size: 53526.9 KB)
+0014.767 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 11500 files added (on-disk size: 53526.9 KB)
+0014.768 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 11600 files added (on-disk size: 53526.9 KB)
+0014.769 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 11700 files added (on-disk size: 53526.9 KB)
+0014.770 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 11800 files added (on-disk size: 53526.9 KB)
+0014.773 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (15 MB, 12271 files batched, 1001 (11896) added so far); re-opening (prior size: 53526.9 KB)
+0016.074 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 11900 files added (on-disk size: 59891.2 KB)
+0016.076 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 12000 files added (on-disk size: 59891.2 KB)
+0016.078 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 12100 files added (on-disk size: 59891.2 KB)
+0016.081 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.tmp: 12200 files added (on-disk size: 59891.2 KB)
+0016.958 (0) Creating zip file manifest (/home/226898.cloudwaysapps.com/vzgygdaqwn/public_html/wp-content/updraft/backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.list-temp.tmp)
+0016.974 (0) Successfully created zip file manifest (size: 1095953)
+0017.437 (0) Created plugins zip (0) - 63418.5 KB in 17.4 s (3653.4 KB/s) (sha1: c372c3bd01ac1c9f7bae6e77a1904ca3425a0de3, sha256: 7080268c2cf9b1b3131e3d57895ebc92600ac403a6e69af79e7cb405da698ba0)
+0017.439 (0) Beginning creation of dump of themes (split every: 400 MB)
+0017.457 (0) Total entities for the zip file: 69 directories, 233 files (0 skipped as non-modified), 12.9 MB
+0017.458 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0017.460 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0017.789 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-themes.zip.tmp: size is now: 9.90 MB
+0017.793 (0) Creating zip file manifest (/home/226898.cloudwaysapps.com/vzgygdaqwn/public_html/wp-content/updraft/backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-themes.zip.list-temp.tmp)
+0017.794 (0) Successfully created zip file manifest (size: 14701)
+0017.870 (0) Created themes zip (0) - 10123 KB in 0.4 s (23525.1 KB/s) (sha1: 293ad8da2607eeb1bebb349f4c90c83fb72c258e, sha256: 2d6a382a48b91971f94c6ff1bc599e7c6b48523dadb61295f121ed0419c0a3a3)
+0017.871 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0017.872 (0) Looking for candidates to backup in: /home/226898.cloudwaysapps.com/vzgygdaqwn/public_html/wp-content/uploads
+0017.872 (0) finding files: woocommerce-placeholder-600x600.png: adding to list (1)
+0017.873 (0) finding files: ShortpixelBackups: adding to list (2)
+0017.873 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (3)
+0017.874 (0) finding files: cache: adding to list (4)
+0017.874 (0) finding files: fw-backup: adding to list (5)
+0017.874 (0) finding files: wp-file-manager-pro: adding to list (6)
+0017.875 (0) finding files: .htaccess: adding to list (7)
+0017.875 (0) finding files: photo-gallery: adding to list (8)
+0017.876 (0) finding files: woocommerce-placeholder-350x250.png: adding to list (9)
+0017.876 (0) finding files: woocommerce-placeholder-750x465.png: adding to list (10)
+0017.877 (0) finding files: wc-logs: adding to list (11)
+0017.877 (0) finding files: woocommerce_uploads: adding to list (12)
+0017.877 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (13)
+0017.878 (0) finding files: woocommerce-placeholder-100x100.png: adding to list (14)
+0017.878 (0) finding files: revslider: adding to list (15)
+0017.879 (0) finding files: 2019: adding to list (16)
+0017.879 (0) finding files: 2020: adding to list (17)
+0017.880 (0) finding files: 2021: adding to list (18)
+0017.880 (0) finding files: elementor: adding to list (19)
+0017.880 (0) finding files: woocommerce-placeholder.png: adding to list (20)
+0017.881 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (21)
+0017.881 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (22)
+0017.882 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0017.943 (0) Total entities for the zip file: 51 directories, 2828 files (0 skipped as non-modified), 105.2 MB
+0017.945 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0017.946 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0017.947 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0017.948 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0017.950 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0017.951 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.tmp: 600 files added (on-disk size: 0 KB)
+0017.952 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.tmp: 700 files added (on-disk size: 0 KB)
+0017.953 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.tmp: 800 files added (on-disk size: 0 KB)
+0017.954 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.tmp: 900 files added (on-disk size: 0 KB)
+0017.955 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0017.956 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (32 MB, 2828 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0018.534 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.tmp: size is now: 32.30 MB
+0018.541 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.tmp: 1100 files added (on-disk size: 33094.7 KB)
+0018.544 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.tmp: 1200 files added (on-disk size: 33094.7 KB)
+0018.545 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.tmp: 1300 files added (on-disk size: 33094.7 KB)
+0018.546 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.tmp: 1400 files added (on-disk size: 33094.7 KB)
+0018.547 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.tmp: 1500 files added (on-disk size: 33094.7 KB)
+0018.548 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.tmp: 1600 files added (on-disk size: 33094.7 KB)
+0018.549 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.tmp: 1700 files added (on-disk size: 33094.7 KB)
+0018.550 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.tmp: 1800 files added (on-disk size: 33094.7 KB)
+0018.551 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.tmp: 1900 files added (on-disk size: 33094.7 KB)
+0018.552 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.tmp: 2000 files added (on-disk size: 33094.7 KB)
+0018.553 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (35.1 MB, 2828 files batched, 1001 (2002) added so far); re-opening (prior size: 33094.7 KB)
+0019.490 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.tmp: size is now: 67.60 MB
+0019.493 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.tmp: 2100 files added (on-disk size: 69230 KB)
+0019.494 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.tmp: 2200 files added (on-disk size: 69230 KB)
+0019.495 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.tmp: 2300 files added (on-disk size: 69230 KB)
+0019.496 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.tmp: 2400 files added (on-disk size: 69230 KB)
+0019.498 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.tmp: 2500 files added (on-disk size: 69230 KB)
+0019.500 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.tmp: 2600 files added (on-disk size: 69230 KB)
+0019.502 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.tmp: 2700 files added (on-disk size: 69230 KB)
+0019.503 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 36.1 MB added on this batch (36.2 MB, 2828 files batched, 710 (2712) added so far); re-opening (prior size: 69230 KB)
+0020.583 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.tmp: size is now: 104.00 MB
+0020.595 (0) A useful amount of data was added after this amount of zip processing: 2 s (normalised: 2 s, rate: 18491.8 KB/s)
+0020.596 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.0049419403076, normalised_time=2.0017503895075, max_time=20.594894886017, data points known=1, old_max_bytes=37904389, new_max_bytes=209715200)
+0020.597 (0) Zip: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.tmp: 2800 files added (on-disk size: 106452.1 KB)
+0020.785 (0) Creating zip file manifest (/home/226898.cloudwaysapps.com/vzgygdaqwn/public_html/wp-content/updraft/backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.list-temp.tmp)
+0020.789 (0) Successfully created zip file manifest (size: 196860)
+0021.575 (0) Created uploads zip (0) - 107946.3 KB in 3.7 s (29236.8 KB/s) (sha1: 686ea609af5483dbc2657ba0fd279d2c65c6c62d, sha256: 593e5acd64ca3e74d2e64ec158c49615df9a44788220c0bdf5023f62d6611657)
+0021.576 (0) Beginning backup of other directories found in the content directory (index: 0)
+0021.577 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0021.577 (0) Looking for candidates to backup in: /home/226898.cloudwaysapps.com/vzgygdaqwn/public_html/wp-content
+0021.577 (0) finding files: cache: skipping: excluded by options
+0021.578 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0021.578 (0) finding files: plugins: skipping: this is the plugins directory
+0021.579 (0) finding files: wp-rocket-config: adding to list (1)
+0021.579 (0) finding files: advanced-cache.php: adding to list (2)
+0021.579 (0) finding files: themes: skipping: this is the themes directory
+0021.580 (0) finding files: index.php: adding to list (3)
+0021.580 (0) finding files: updraft: skipping: this is the updraft directory
+0021.580 (0) finding files: wflogs: adding to list (4)
+0021.581 (0) finding files: upgrade: skipping: excluded by options
+0021.581 (0) finding files: uploads: skipping: this is the uploads directory
+0021.583 (0) Total entities for the zip file: 2 directories, 14 files (0 skipped as non-modified), 5.7 MB
+0021.988 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-others.zip.tmp: size is now: 2.70 MB
+0021.990 (0) Creating zip file manifest (/home/226898.cloudwaysapps.com/vzgygdaqwn/public_html/wp-content/updraft/backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-others.zip.list-temp.tmp)
+0021.991 (0) Successfully created zip file manifest (size: 483)
+0022.012 (0) Created others zip (0) - 2740.4 KB in 0.4 s (6365.3 KB/s) (sha1: cb39bc666f113d628bee082286baa411a727287b, sha256: 0ec30a738670819b37f046dd67c35381c765199bc33c1f13a4d458225568f14a)
+0022.014 (0) Saving backup status to database (elements: 8)
+0022.016 (0) Beginning creation of database dump (WordPress DB)
+0022.016 (0) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0022.018 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0022.071 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1558 bytes total)
+0022.072 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0022.170 (0) Table wp_options: Total expected rows (via COUNT): 948
+0022.323 (0) Table wp_options: Rows added in this batch (next record: 103577): 944 (uncompressed bytes in this segment=3406627) in 0.20 seconds
+0022.326 (0) Table wp_options: finishing file(s) (2, 394.2 KB)
+0022.328 (0) Table wp_users: Total expected rows (via COUNT): 2
+0022.329 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0022.330 (0) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1533) in 0.00 seconds
+0022.331 (0) Table wp_users: finishing file(s) (2, 0.7 KB)
+0022.334 (0) Table wp_usermeta: Total expected rows (via COUNT): 91
+0022.335 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0022.336 (0) Table wp_usermeta: Rows added in this batch (next record: 178): 91 (uncompressed bytes in this segment=11326) in 0.00 seconds
+0022.338 (0) Table wp_usermeta: finishing file(s) (2, 3.7 KB)
+0022.341 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 15
+0022.341 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0022.343 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 10203): 15 (uncompressed bytes in this segment=6789) in 0.00 seconds
+0022.345 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.4 KB)
+0022.347 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0022.349 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=650) in 0.00 seconds
+0022.351 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0022.352 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 4
+0022.353 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0022.355 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=771) in 0.00 seconds
+0022.357 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0022.359 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 99
+0022.359 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0022.361 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 15989): 99 (uncompressed bytes in this segment=9585) in 0.00 seconds
+0022.363 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 1.6 KB)
+0022.365 (0) Table wp_blogmeta: Total expected rows (via COUNT): 12
+0022.366 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0022.367 (0) Table wp_blogmeta: Rows added in this batch (next record: 12): 12 (uncompressed bytes in this segment=1221) in 0.00 seconds
+0022.369 (0) Table wp_blogmeta: finishing file(s) (2, 0.6 KB)
+0022.372 (0) Table wp_commentmeta: Total expected rows (via COUNT): 16
+0022.372 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0022.373 (0) Table wp_commentmeta: Rows added in this batch (next record: 16): 16 (uncompressed bytes in this segment=1434) in 0.00 seconds
+0022.375 (0) Table wp_commentmeta: finishing file(s) (2, 0.6 KB)
+0022.377 (0) Table wp_comments: Total expected rows (via COUNT): 8
+0022.377 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0022.378 (0) Table wp_comments: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=5503) in 0.00 seconds
+0022.380 (0) Table wp_comments: finishing file(s) (2, 1.6 KB)
+0022.382 (0) Table wp_links: Total expected rows (via COUNT): 0
+0022.383 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1289) in 0.00 seconds
+0022.385 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0022.629 (0) Table wp_postmeta: Total expected rows (approximate): 5941
+0023.325 (0) Table wp_postmeta: Rows added in this batch (next record: 53905): 6160 (uncompressed bytes in this segment=8963996) in 0.94 seconds
+0023.330 (0) Table wp_postmeta: finishing file(s) (2, 799.5 KB)
+0023.385 (0) Table wp_posts: Total expected rows (via COUNT): 1088
+0023.512 (0) Table wp_posts: Rows added in this batch (next record: 7240): 1088 (uncompressed bytes in this segment=2627348) in 0.18 seconds
+0023.515 (0) Table wp_posts: finishing file(s) (2, 180 KB)
+0023.517 (0) Table wp_term_relationships: Total expected rows (approximate): 173
+0023.518 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 181 (uncompressed bytes in this segment=3466) in 0.00 seconds
+0023.520 (0) Table wp_term_relationships: finishing file(s) (2, 0.9 KB)
+0023.523 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 83
+0023.523 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.525 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 114): 83 (uncompressed bytes in this segment=3890) in 0.00 seconds
+0023.528 (0) Table wp_term_taxonomy: finishing file(s) (2, 1.1 KB)
+0023.531 (0) Table wp_termmeta: Total expected rows (via COUNT): 13
+0023.531 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.533 (0) Table wp_termmeta: Rows added in this batch (next record: 13): 13 (uncompressed bytes in this segment=1197) in 0.00 seconds
+0023.536 (0) Table wp_termmeta: finishing file(s) (2, 0.6 KB)
+0023.538 (0) Table wp_terms: Total expected rows (via COUNT): 83
+0023.539 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.540 (0) Table wp_terms: Rows added in this batch (next record: 114): 83 (uncompressed bytes in this segment=4877) in 0.00 seconds
+0023.543 (0) Table wp_terms: finishing file(s) (2, 1.7 KB)
+0023.546 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 7
+0023.547 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 7 (uncompressed bytes in this segment=670) in 0.00 seconds
+0023.552 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0023.554 (0) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 17
+0023.555 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.556 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: 4834): 17 (uncompressed bytes in this segment=3107) in 0.00 seconds
+0023.558 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 0.9 KB)
+0023.560 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0023.561 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=680) in 0.00 seconds
+0023.562 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0023.564 (0) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0023.565 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.566 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=819) in 0.00 seconds
+0023.568 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0023.571 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0023.572 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=778) in 0.00 seconds
+0023.576 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0023.579 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0023.579 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=805) in 0.00 seconds
+0023.583 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0023.587 (0) Table wp_wpr_rucss_resources: Total expected rows (via COUNT): 0
+0023.588 (0) Table wp_wpr_rucss_resources: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1136) in 0.00 seconds
+0023.592 (0) Table wp_wpr_rucss_resources: finishing file(s) (2, 0.5 KB)
+0023.595 (0) Table wp_wpr_rucss_used_css: Total expected rows (via COUNT): 0
+0023.596 (0) Table wp_wpr_rucss_used_css: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=990) in 0.00 seconds
+0023.598 (0) Table wp_wpr_rucss_used_css: finishing file(s) (2, 0.5 KB)
+0023.601 (0) Table wp_aioseo_cache: Total expected rows (via COUNT): 3
+0023.601 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.608 (0) Table wp_aioseo_cache: Rows added in this batch (next record: 22): 3 (uncompressed bytes in this segment=63780) in 0.01 seconds
+0023.611 (0) Table wp_aioseo_cache: finishing file(s) (2, 11.6 KB)
+0023.614 (0) Table wp_aioseo_notifications: Total expected rows (via COUNT): 5
+0023.614 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.615 (0) Table wp_aioseo_notifications: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=18515) in 0.00 seconds
+0023.618 (0) Table wp_aioseo_notifications: finishing file(s) (2, 11.7 KB)
+0023.623 (0) Table wp_aioseo_posts: Total expected rows (via COUNT): 186
+0023.623 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.646 (0) Table wp_aioseo_posts: Rows added in this batch (next record: 219): 186 (uncompressed bytes in this segment=539441) in 0.02 seconds
+0023.648 (0) Table wp_aioseo_posts: finishing file(s) (2, 21.6 KB)
+0023.653 (0) Table wp_bv_activities_store: Total expected rows (via COUNT): 0
+0023.654 (0) Table wp_bv_activities_store: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=876) in 0.00 seconds
+0023.656 (0) Table wp_bv_activities_store: finishing file(s) (2, 0.4 KB)
+0023.658 (0) Table wp_bv_fw_requests: Total expected rows (via COUNT): 2
+0023.658 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.660 (0) Table wp_bv_fw_requests: Rows added in this batch (next record: 2944): 2 (uncompressed bytes in this segment=2215) in 0.00 seconds
+0023.661 (0) Table wp_bv_fw_requests: finishing file(s) (2, 0.9 KB)
+0023.665 (0) Table wp_bv_ip_store: Total expected rows (approximate): 1968
+0023.684 (0) Table wp_bv_ip_store: Rows added in this batch (next record: 1968): 1968 (uncompressed bytes in this segment=83831) in 0.02 seconds
+0023.689 (0) Table wp_bv_ip_store: finishing file(s) (2, 16.2 KB)
+0023.691 (0) Table wp_bv_lp_requests: Total expected rows (via COUNT): 0
+0023.692 (0) Table wp_bv_lp_requests: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=878) in 0.00 seconds
+0023.693 (0) Table wp_bv_lp_requests: finishing file(s) (2, 0.4 KB)
+0023.695 (0) Table wp_bwg_album: Total expected rows (via COUNT): 0
+0023.697 (0) Table wp_bwg_album: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=869) in 0.00 seconds
+0023.698 (0) Table wp_bwg_album: finishing file(s) (2, 0.4 KB)
+0023.700 (0) Table wp_bwg_album_gallery: Total expected rows (via COUNT): 0
+0023.701 (0) Table wp_bwg_album_gallery: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=597) in 0.00 seconds
+0023.703 (0) Table wp_bwg_album_gallery: finishing file(s) (2, 0.3 KB)
+0023.707 (0) Table wp_bwg_file_paths: Total expected rows (via COUNT): 4
+0023.707 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.709 (0) Table wp_bwg_file_paths: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=2578) in 0.00 seconds
+0023.710 (0) Table wp_bwg_file_paths: finishing file(s) (2, 0.7 KB)
+0023.712 (0) Table wp_bwg_gallery: Total expected rows (via COUNT): 1
+0023.713 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.713 (0) Table wp_bwg_gallery: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1349) in 0.00 seconds
+0023.716 (0) Table wp_bwg_gallery: finishing file(s) (2, 0.6 KB)
+0023.720 (0) Table wp_bwg_image: Total expected rows (via COUNT): 4
+0023.721 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.722 (0) Table wp_bwg_image: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=2705) in 0.00 seconds
+0023.724 (0) Table wp_bwg_image: finishing file(s) (2, 0.8 KB)
+0023.729 (0) Table wp_bwg_image_comment: Total expected rows (via COUNT): 0
+0023.730 (0) Table wp_bwg_image_comment: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=821) in 0.00 seconds
+0023.731 (0) Table wp_bwg_image_comment: finishing file(s) (2, 0.4 KB)
+0023.734 (0) Table wp_bwg_image_rate: Total expected rows (via COUNT): 0
+0023.734 (0) Table wp_bwg_image_rate: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=617) in 0.00 seconds
+0023.736 (0) Table wp_bwg_image_rate: finishing file(s) (2, 0.4 KB)
+0023.738 (0) Table wp_bwg_image_tag: Total expected rows (via COUNT): 0
+0023.739 (0) Table wp_bwg_image_tag: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=540) in 0.00 seconds
+0023.740 (0) Table wp_bwg_image_tag: finishing file(s) (2, 0.3 KB)
+0023.742 (0) Table wp_bwg_shortcode: Total expected rows (via COUNT): 1
+0023.743 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.744 (0) Table wp_bwg_shortcode: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1959) in 0.00 seconds
+0023.749 (0) Table wp_bwg_shortcode: finishing file(s) (2, 0.9 KB)
+0023.754 (0) Table wp_bwg_theme: Total expected rows (via COUNT): 2
+0023.754 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.756 (0) Table wp_bwg_theme: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=41522) in 0.00 seconds
+0023.758 (0) Table wp_bwg_theme: finishing file(s) (2, 4.5 KB)
+0023.760 (0) Table wp_e_submissions: Total expected rows (via COUNT): 0
+0023.761 (0) Table wp_e_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2257) in 0.00 seconds
+0023.763 (0) Table wp_e_submissions: finishing file(s) (2, 0.7 KB)
+0023.765 (0) Table wp_e_submissions_actions_log: Total expected rows (via COUNT): 0
+0023.766 (0) Table wp_e_submissions_actions_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1250) in 0.00 seconds
+0023.769 (0) Table wp_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+0023.771 (0) Table wp_e_submissions_values: Total expected rows (via COUNT): 0
+0023.772 (0) Table wp_e_submissions_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=731) in 0.00 seconds
+0023.775 (0) Table wp_e_submissions_values: finishing file(s) (2, 0.4 KB)
+0023.777 (0) Table wp_litespeed_url: Total expected rows (via COUNT): 0
+0023.778 (0) Table wp_litespeed_url: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=646) in 0.00 seconds
+0023.780 (0) Table wp_litespeed_url: finishing file(s) (2, 0.4 KB)
+0023.783 (0) Table wp_litespeed_url_file: Total expected rows (via COUNT): 0
+0023.784 (0) Table wp_litespeed_url_file: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=862) in 0.00 seconds
+0023.785 (0) Table wp_litespeed_url_file: finishing file(s) (2, 0.4 KB)
+0023.789 (0) Table wp_mp_timetable_data: Total expected rows (via COUNT): 26
+0023.789 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.791 (0) Table wp_mp_timetable_data: Rows added in this batch (next record: 55): 26 (uncompressed bytes in this segment=2299) in 0.00 seconds
+0023.792 (0) Table wp_mp_timetable_data: finishing file(s) (2, 0.7 KB)
+0023.794 (0) Table wp_redirection_404: Total expected rows (via COUNT): 0
+0023.795 (0) Table wp_redirection_404: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1077) in 0.00 seconds
+0023.799 (0) Table wp_redirection_404: finishing file(s) (2, 0.5 KB)
+0023.801 (0) Table wp_redirection_groups: Total expected rows (via COUNT): 2
+0023.801 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.803 (0) Table wp_redirection_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=972) in 0.00 seconds
+0023.804 (0) Table wp_redirection_groups: finishing file(s) (2, 0.5 KB)
+0023.809 (0) Table wp_redirection_items: Total expected rows (via COUNT): 1
+0023.809 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.810 (0) Table wp_redirection_items: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1843) in 0.00 seconds
+0023.811 (0) Table wp_redirection_items: finishing file(s) (2, 0.7 KB)
+0023.814 (0) Table wp_redirection_logs: Total expected rows (via COUNT): 0
+0023.815 (0) Table wp_redirection_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1238) in 0.00 seconds
+0023.816 (0) Table wp_redirection_logs: finishing file(s) (2, 0.5 KB)
+0023.819 (0) Table wp_revslider_css: Total expected rows (via COUNT): 109
+0023.820 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.824 (0) Table wp_revslider_css: Rows added in this batch (next record: 109): 109 (uncompressed bytes in this segment=91566) in 0.01 seconds
+0023.827 (0) Table wp_revslider_css: finishing file(s) (2, 4.9 KB)
+0023.832 (0) Table wp_revslider_css_bkp: Total expected rows (via COUNT): 47
+0023.833 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.834 (0) Table wp_revslider_css_bkp: Rows added in this batch (next record: 47): 47 (uncompressed bytes in this segment=15260) in 0.01 seconds
+0023.836 (0) Table wp_revslider_css_bkp: finishing file(s) (2, 1.8 KB)
+0023.838 (0) Table wp_revslider_layer_animations: Total expected rows (via COUNT): 0
+0023.843 (0) Table wp_revslider_layer_animations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=557) in 0.01 seconds
+0023.844 (0) Table wp_revslider_layer_animations: finishing file(s) (2, 0.3 KB)
+0023.846 (0) Table wp_revslider_layer_animations_bkp: Total expected rows (via COUNT): 0
+0023.847 (0) Table wp_revslider_layer_animations_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=692) in 0.00 seconds
+0023.848 (0) Table wp_revslider_layer_animations_bkp: finishing file(s) (2, 0.4 KB)
+0023.851 (0) Table wp_revslider_navigations: Total expected rows (via COUNT): 0
+0023.852 (0) Table wp_revslider_navigations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.00 seconds
+0023.854 (0) Table wp_revslider_navigations: finishing file(s) (2, 0.4 KB)
+0023.858 (0) Table wp_revslider_navigations_bkp: Total expected rows (via COUNT): 0
+0023.858 (0) Table wp_revslider_navigations_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=850) in 0.00 seconds
+0023.862 (0) Table wp_revslider_navigations_bkp: finishing file(s) (2, 0.4 KB)
+0023.865 (0) Table wp_revslider_sliders: Total expected rows (via COUNT): 4
+0023.866 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.867 (0) Table wp_revslider_sliders: Rows added in this batch (next record: 8): 4 (uncompressed bytes in this segment=39442) in 0.00 seconds
+0023.872 (0) Table wp_revslider_sliders: finishing file(s) (2, 4.4 KB)
+0023.876 (0) Table wp_revslider_sliders_bkp: Total expected rows (via COUNT): 3
+0023.877 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.878 (0) Table wp_revslider_sliders_bkp: Rows added in this batch (next record: 4): 3 (uncompressed bytes in this segment=28494) in 0.00 seconds
+0023.880 (0) Table wp_revslider_sliders_bkp: finishing file(s) (2, 3.9 KB)
+0023.883 (0) Table wp_revslider_slides: Total expected rows (via COUNT): 12
+0023.883 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.888 (0) Table wp_revslider_slides: Rows added in this batch (next record: 24): 12 (uncompressed bytes in this segment=192167) in 0.01 seconds
+0023.892 (0) Table wp_revslider_slides: finishing file(s) (2, 9.8 KB)
+0023.902 (0) Table wp_revslider_slides_bkp: Total expected rows (via COUNT): 9
+0023.903 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.905 (0) Table wp_revslider_slides_bkp: Rows added in this batch (next record: 19): 9 (uncompressed bytes in this segment=140561) in 0.01 seconds
+0023.907 (0) Table wp_revslider_slides_bkp: finishing file(s) (2, 6.9 KB)
+0023.913 (0) Table wp_revslider_static_slides: Total expected rows (via COUNT): 4
+0023.913 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.914 (0) Table wp_revslider_static_slides: Rows added in this batch (next record: 7): 4 (uncompressed bytes in this segment=1012) in 0.00 seconds
+0023.916 (0) Table wp_revslider_static_slides: finishing file(s) (2, 0.4 KB)
+0023.919 (0) Table wp_revslider_static_slides_bkp: Total expected rows (via COUNT): 3
+0023.920 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.920 (0) Table wp_revslider_static_slides_bkp: Rows added in this batch (next record: 4): 3 (uncompressed bytes in this segment=1028) in 0.00 seconds
+0023.922 (0) Table wp_revslider_static_slides_bkp: finishing file(s) (2, 0.5 KB)
+0023.926 (0) Table wp_shortpixel_folders: Total expected rows (via COUNT): 0
+0023.927 (0) Table wp_shortpixel_folders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=940) in 0.00 seconds
+0023.929 (0) Table wp_shortpixel_folders: finishing file(s) (2, 0.5 KB)
+0023.931 (0) Table wp_shortpixel_meta: Total expected rows (via COUNT): 0
+0023.934 (0) Table wp_shortpixel_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1452) in 0.00 seconds
+0023.935 (0) Table wp_shortpixel_meta: finishing file(s) (2, 0.6 KB)
+0023.938 (0) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 68
+0023.938 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.941 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 9606): 68 (uncompressed bytes in this segment=11629) in 0.00 seconds
+0023.943 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 2.6 KB)
+0023.947 (0) Table wp_wc_admin_notes: Total expected rows (via COUNT): 63
+0023.947 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.951 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 66): 63 (uncompressed bytes in this segment=31162) in 0.01 seconds
+0023.953 (0) Table wp_wc_admin_notes: finishing file(s) (2, 7.5 KB)
+0023.956 (0) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 4
+0023.957 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.958 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1762) in 0.00 seconds
+0023.962 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 0.7 KB)
+0023.964 (0) Table wp_wc_download_log: Total expected rows (via COUNT): 0
+0023.966 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=937) in 0.00 seconds
+0023.967 (0) Table wp_wc_download_log: finishing file(s) (2, 0.5 KB)
+0023.969 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0023.970 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=732) in 0.00 seconds
+0023.971 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0023.973 (0) Table wp_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0023.975 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1242) in 0.00 seconds
+0023.977 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0023.979 (0) Table wp_wc_order_stats: Total expected rows (via COUNT): 0
+0023.979 (0) Table wp_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1133) in 0.00 seconds
+0023.981 (0) Table wp_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0023.983 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0023.985 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=814) in 0.00 seconds
+0023.987 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0023.989 (0) Table wp_wc_webhooks: Total expected rows (via COUNT): 0
+0023.990 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1225) in 0.00 seconds
+0023.992 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0023.996 (0) Table wp_wfblockediplog: Total expected rows (approximate): 4
+0023.997 (0) Table wp_wfblockediplog: Rows added in this batch (next record: 1000): 24 (uncompressed bytes in this segment=2180) in 0.00 seconds
+0023.998 (0) Table wp_wfblockediplog: finishing file(s) (2, 0.7 KB)
+0024.001 (0) Table wp_wfblocks7: Total expected rows (via COUNT): 0
+0024.001 (0) Table wp_wfblocks7: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=828) in 0.00 seconds
+0024.003 (0) Table wp_wfblocks7: finishing file(s) (2, 0.4 KB)
+0024.004 (0) Table wp_wfconfig: Total expected rows (approximate): 245
+0024.088 (0) Table wp_wfconfig: Rows added in this batch (next record: 1000): 258 (uncompressed bytes in this segment=826502) in 0.08 seconds
+0024.092 (0) Table wp_wfconfig: finishing file(s) (2, 426.6 KB)
+0024.094 (0) Table wp_wfcrawlers: Total expected rows (approximate): 23
+0024.097 (0) Table wp_wfcrawlers: Rows added in this batch (next record: 1000): 27 (uncompressed bytes in this segment=4217) in 0.00 seconds
+0024.099 (0) Table wp_wfcrawlers: finishing file(s) (2, 0.9 KB)
+0024.101 (0) Table wp_wffilechanges: Total expected rows (approximate): 0
+0024.101 (0) Table wp_wffilechanges: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=452) in 0.00 seconds
+0024.106 (0) Table wp_wffilechanges: finishing file(s) (2, 0.3 KB)
+0024.129 (0) Table wp_wffilemods: Total expected rows (approximate): 13133
+0024.372 (0) Table wp_wffilemods: binary mysqldump finished (writes: 38, bytes 3173536, return code 0) in 0.24 seconds
+0024.375 (0) Table wp_wffilemods: finishing file(s) (1, 1239.3 KB)
+0024.377 (0) Table wp_wfhits: Total expected rows (via COUNT): 261
+0024.377 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.383 (0) Table wp_wfhits: Rows added in this batch (next record: 286): 261 (uncompressed bytes in this segment=143594) in 0.01 seconds
+0024.386 (0) Table wp_wfhits: finishing file(s) (2, 11 KB)
+0024.388 (0) Table wp_wfhoover: Total expected rows (via COUNT): 0
+0024.389 (0) Table wp_wfhoover: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=476) in 0.00 seconds
+0024.390 (0) Table wp_wfhoover: finishing file(s) (2, 0.3 KB)
+0024.392 (0) Table wp_wfissues: Total expected rows (via COUNT): 2
+0024.392 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.394 (0) Table wp_wfissues: Rows added in this batch (next record: 287): 2 (uncompressed bytes in this segment=3958) in 0.00 seconds
+0024.396 (0) Table wp_wfissues: finishing file(s) (2, 1.3 KB)
+0024.397 (0) Table wp_wfknownfilelist: Total expected rows (approximate): 12306
+0024.456 (0) Table wp_wfknownfilelist: binary mysqldump finished (writes: 29, bytes 1137321, return code 0) in 0.06 seconds
+0024.458 (0) Table wp_wfknownfilelist: finishing file(s) (1, 129.3 KB)
+0024.460 (0) Table wp_wflivetraffichuman: Total expected rows (approximate): 0
+0024.461 (0) Table wp_wflivetraffichuman: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=648) in 0.00 seconds
+0024.463 (0) Table wp_wflivetraffichuman: finishing file(s) (2, 0.3 KB)
+0024.464 (0) Table wp_wflocs: Total expected rows (approximate): 1
+0024.465 (0) Table wp_wflocs: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=835) in 0.00 seconds
+0024.467 (0) Table wp_wflocs: finishing file(s) (2, 0.5 KB)
+0024.469 (0) Table wp_wflogins: Total expected rows (via COUNT): 67
+0024.469 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.471 (0) Table wp_wflogins: Rows added in this batch (next record: 67): 67 (uncompressed bytes in this segment=14986) in 0.00 seconds
+0024.473 (0) Table wp_wflogins: finishing file(s) (2, 2 KB)
+0024.475 (0) Table wp_wfls_2fa_secrets: Total expected rows (via COUNT): 0
+0024.476 (0) Table wp_wfls_2fa_secrets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=681) in 0.00 seconds
+0024.477 (0) Table wp_wfls_2fa_secrets: finishing file(s) (2, 0.4 KB)
+0024.479 (0) Table wp_wfls_settings: Total expected rows (approximate): 23
+0024.480 (0) Table wp_wfls_settings: Rows added in this batch (next record: 1000): 23 (uncompressed bytes in this segment=1757) in 0.00 seconds
+0024.481 (0) Table wp_wfls_settings: finishing file(s) (2, 0.8 KB)
+0024.483 (0) Table wp_wfnotifications: Total expected rows (approximate): 3
+0024.484 (0) Table wp_wfnotifications: Rows added in this batch (next record: 1000): 4 (uncompressed bytes in this segment=1944) in 0.00 seconds
+0024.486 (0) Table wp_wfnotifications: finishing file(s) (2, 0.9 KB)
+0024.488 (0) Table wp_wfpendingissues: Total expected rows (via COUNT): 0
+0024.488 (0) Table wp_wfpendingissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=846) in 0.00 seconds
+0024.490 (0) Table wp_wfpendingissues: finishing file(s) (2, 0.4 KB)
+0024.491 (0) Table wp_wfreversecache: Total expected rows (approximate): 4
+0024.492 (0) Table wp_wfreversecache: Rows added in this batch (next record: 1000): 4 (uncompressed bytes in this segment=893) in 0.00 seconds
+0024.494 (0) Table wp_wfreversecache: finishing file(s) (2, 0.5 KB)
+0024.495 (0) Table wp_wfsnipcache: Total expected rows (via COUNT): 0
+0024.496 (0) Table wp_wfsnipcache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=718) in 0.00 seconds
+0024.498 (0) Table wp_wfsnipcache: finishing file(s) (2, 0.4 KB)
+0024.500 (0) Table wp_wfstatus: Total expected rows (via COUNT): 943
+0024.507 (0) Table wp_wfstatus: Rows added in this batch (next record: 3688): 943 (uncompressed bytes in this segment=91197) in 0.01 seconds
+0024.509 (0) Table wp_wfstatus: finishing file(s) (2, 15.4 KB)
+0024.511 (0) Table wp_wftrafficrates: Total expected rows (approximate): 0
+0024.511 (0) Table wp_wftrafficrates: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=566) in 0.00 seconds
+0024.513 (0) Table wp_wftrafficrates: finishing file(s) (2, 0.3 KB)
+0024.516 (0) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0024.516 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1037) in 0.00 seconds
+0024.518 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.5 KB)
+0024.520 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 2
+0024.521 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.522 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1134) in 0.00 seconds
+0024.523 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.5 KB)
+0024.525 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0024.526 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1537) in 0.00 seconds
+0024.528 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0024.530 (0) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+0024.531 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=725) in 0.00 seconds
+0024.533 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0024.536 (0) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 0
+0024.537 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=746) in 0.00 seconds
+0024.539 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0024.542 (0) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0024.542 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=844) in 0.00 seconds
+0024.544 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0024.546 (0) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 1
+0024.547 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.548 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: 4): 1 (uncompressed bytes in this segment=2219) in 0.00 seconds
+0024.550 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 0.9 KB)
+0024.552 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0024.553 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=881) in 0.00 seconds
+0024.554 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0024.556 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0024.557 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=786) in 0.00 seconds
+0024.559 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0024.565 (0) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+0024.565 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=644) in 0.00 seconds
+0024.567 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0024.569 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0024.570 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=855) in 0.00 seconds
+0024.571 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0024.573 (0) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0024.574 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1296) in 0.00 seconds
+0024.575 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0024.577 (0) Table wp_wpfm_backup: Total expected rows (via COUNT): 0
+0024.578 (0) Table wp_wpfm_backup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=521) in 0.00 seconds
+0024.580 (0) Table wp_wpfm_backup: finishing file(s) (2, 0.3 KB)
+0024.582 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 0
+0024.582 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=708) in 0.00 seconds
+0024.585 (0) Table wp_yoast_seo_links: finishing file(s) (2, 0.4 KB)
+0024.587 (0) Table wp_yoast_seo_meta: Total expected rows (via COUNT): 0
+0024.589 (0) Table wp_yoast_seo_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=573) in 0.00 seconds
+0024.590 (0) Table wp_yoast_seo_meta: finishing file(s) (2, 0.3 KB)
+0024.591 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_options.table.tmpr103578.gz (1/111/fopen): adding to final database dump
+0024.593 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_options.table.gz (2/111/fopen): adding to final database dump
+0024.594 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_users.table.tmpr3.gz (3/111/fopen): adding to final database dump
+0024.594 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_users.table.gz (4/111/fopen): adding to final database dump
+0024.595 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_usermeta.table.tmpr179.gz (5/111/fopen): adding to final database dump
+0024.595 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_usermeta.table.gz (6/111/fopen): adding to final database dump
+0024.596 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_actionscheduler_actions.table.tmpr10204.gz (7/111/fopen): adding to final database dump
+0024.596 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_actionscheduler_actions.table.gz (8/111/fopen): adding to final database dump
+0024.596 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/111/fopen): adding to final database dump
+0024.597 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_actionscheduler_claims.table.gz (10/111/fopen): adding to final database dump
+0024.597 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_actionscheduler_groups.table.tmpr5.gz (11/111/fopen): adding to final database dump
+0024.597 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_actionscheduler_groups.table.gz (12/111/fopen): adding to final database dump
+0024.598 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_actionscheduler_logs.table.tmpr15990.gz (13/111/fopen): adding to final database dump
+0024.598 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_actionscheduler_logs.table.gz (14/111/fopen): adding to final database dump
+0024.598 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_blogmeta.table.tmpr13.gz (15/111/fopen): adding to final database dump
+0024.599 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_blogmeta.table.gz (16/111/fopen): adding to final database dump
+0024.599 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_commentmeta.table.tmpr17.gz (17/111/fopen): adding to final database dump
+0024.600 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_commentmeta.table.gz (18/111/fopen): adding to final database dump
+0024.600 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_comments.table.tmpr9.gz (19/111/fopen): adding to final database dump
+0024.600 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_comments.table.gz (20/111/fopen): adding to final database dump
+0024.601 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_links.table.tmpr0.gz (21/111/fopen): adding to final database dump
+0024.601 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_links.table.gz (22/111/fopen): adding to final database dump
+0024.601 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_postmeta.table.tmpr53906.gz (23/111/fopen): adding to final database dump
+0024.606 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_postmeta.table.gz (24/111/fopen): adding to final database dump
+0024.607 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_posts.table.tmpr7241.gz (25/111/fopen): adding to final database dump
+0024.608 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_posts.table.gz (26/111/fopen): adding to final database dump
+0024.609 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_term_relationships.table.tmpr100001.gz (27/111/fopen): adding to final database dump
+0024.609 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_term_relationships.table.gz (28/111/fopen): adding to final database dump
+0024.609 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_term_taxonomy.table.tmpr115.gz (29/111/fopen): adding to final database dump
+0024.610 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_term_taxonomy.table.gz (30/111/fopen): adding to final database dump
+0024.610 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_termmeta.table.tmpr14.gz (31/111/fopen): adding to final database dump
+0024.610 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_termmeta.table.gz (32/111/fopen): adding to final database dump
+0024.611 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_terms.table.tmpr115.gz (33/111/fopen): adding to final database dump
+0024.611 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_terms.table.gz (34/111/fopen): adding to final database dump
+0024.611 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wc_category_lookup.table.tmpr1001.gz (35/111/fopen): adding to final database dump
+0024.612 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wc_category_lookup.table.gz (36/111/fopen): adding to final database dump
+0024.612 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wc_product_meta_lookup.table.tmpr4835.gz (37/111/fopen): adding to final database dump
+0024.613 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wc_product_meta_lookup.table.gz (38/111/fopen): adding to final database dump
+0024.613 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wc_reserved_stock.table.tmpr1.gz (39/111/fopen): adding to final database dump
+0024.613 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wc_reserved_stock.table.gz (40/111/fopen): adding to final database dump
+0024.614 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (41/111/fopen): adding to final database dump
+0024.614 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wc_tax_rate_classes.table.gz (42/111/fopen): adding to final database dump
+0024.615 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_woocommerce_order_itemmeta.table.tmpr0.gz (43/111/fopen): adding to final database dump
+0024.615 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_woocommerce_order_itemmeta.table.gz (44/111/fopen): adding to final database dump
+0024.615 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (45/111/fopen): adding to final database dump
+0024.616 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_woocommerce_payment_tokenmeta.table.gz (46/111/fopen): adding to final database dump
+0024.616 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wpr_rucss_resources.table.tmpr0.gz (47/111/fopen): adding to final database dump
+0024.617 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wpr_rucss_resources.table.gz (48/111/fopen): adding to final database dump
+0024.617 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wpr_rucss_used_css.table.tmpr0.gz (49/111/fopen): adding to final database dump
+0024.617 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wpr_rucss_used_css.table.gz (50/111/fopen): adding to final database dump
+0024.618 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_aioseo_cache.table.tmpr23.gz (51/111/fopen): adding to final database dump
+0024.618 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_aioseo_cache.table.gz (52/111/fopen): adding to final database dump
+0024.619 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_aioseo_notifications.table.tmpr6.gz (53/111/fopen): adding to final database dump
+0024.619 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_aioseo_notifications.table.gz (54/111/fopen): adding to final database dump
+0024.620 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_aioseo_posts.table.tmpr220.gz (55/111/fopen): adding to final database dump
+0024.620 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_aioseo_posts.table.gz (56/111/fopen): adding to final database dump
+0024.620 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_bv_activities_store.table.tmpr0.gz (57/111/fopen): adding to final database dump
+0024.621 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_bv_activities_store.table.gz (58/111/fopen): adding to final database dump
+0024.621 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_bv_fw_requests.table.tmpr2945.gz (59/111/fopen): adding to final database dump
+0024.622 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_bv_fw_requests.table.gz (60/111/fopen): adding to final database dump
+0024.622 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_bv_ip_store.table.tmpr1969.gz (61/111/fopen): adding to final database dump
+0024.622 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_bv_ip_store.table.gz (62/111/fopen): adding to final database dump
+0024.623 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_bv_lp_requests.table.tmpr0.gz (63/111/fopen): adding to final database dump
+0024.623 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_bv_lp_requests.table.gz (64/111/fopen): adding to final database dump
+0024.624 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_bwg_album.table.tmpr0.gz (65/111/fopen): adding to final database dump
+0024.624 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_bwg_album.table.gz (66/111/fopen): adding to final database dump
+0024.624 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_bwg_album_gallery.table.tmpr0.gz (67/111/fopen): adding to final database dump
+0024.625 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_bwg_album_gallery.table.gz (68/111/fopen): adding to final database dump
+0024.625 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_bwg_file_paths.table.tmpr5.gz (69/111/fopen): adding to final database dump
+0024.626 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_bwg_file_paths.table.gz (70/111/fopen): adding to final database dump
+0024.626 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_bwg_gallery.table.tmpr2.gz (71/111/fopen): adding to final database dump
+0024.626 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_bwg_gallery.table.gz (72/111/fopen): adding to final database dump
+0024.627 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_bwg_image.table.tmpr5.gz (73/111/fopen): adding to final database dump
+0024.627 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_bwg_image.table.gz (74/111/fopen): adding to final database dump
+0024.627 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_bwg_image_comment.table.tmpr0.gz (75/111/fopen): adding to final database dump
+0024.628 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_bwg_image_comment.table.gz (76/111/fopen): adding to final database dump
+0024.628 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_bwg_image_rate.table.tmpr0.gz (77/111/fopen): adding to final database dump
+0024.629 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_bwg_image_rate.table.gz (78/111/fopen): adding to final database dump
+0024.629 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_bwg_image_tag.table.tmpr0.gz (79/111/fopen): adding to final database dump
+0024.629 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_bwg_image_tag.table.gz (80/111/fopen): adding to final database dump
+0024.630 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_bwg_shortcode.table.tmpr2.gz (81/111/fopen): adding to final database dump
+0024.630 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_bwg_shortcode.table.gz (82/111/fopen): adding to final database dump
+0024.631 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_bwg_theme.table.tmpr3.gz (83/111/fopen): adding to final database dump
+0024.631 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_bwg_theme.table.gz (84/111/fopen): adding to final database dump
+0024.631 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_e_submissions.table.tmpr0.gz (85/111/fopen): adding to final database dump
+0024.632 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_e_submissions.table.gz (86/111/fopen): adding to final database dump
+0024.632 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_e_submissions_actions_log.table.tmpr0.gz (87/111/fopen): adding to final database dump
+0024.633 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_e_submissions_actions_log.table.gz (88/111/fopen): adding to final database dump
+0024.633 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_e_submissions_values.table.tmpr0.gz (89/111/fopen): adding to final database dump
+0024.633 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_e_submissions_values.table.gz (90/111/fopen): adding to final database dump
+0024.634 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_litespeed_url.table.tmpr0.gz (91/111/fopen): adding to final database dump
+0024.634 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_litespeed_url.table.gz (92/111/fopen): adding to final database dump
+0024.634 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_litespeed_url_file.table.tmpr0.gz (93/111/fopen): adding to final database dump
+0024.635 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_litespeed_url_file.table.gz (94/111/fopen): adding to final database dump
+0024.635 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_mp_timetable_data.table.tmpr56.gz (95/111/fopen): adding to final database dump
+0024.636 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_mp_timetable_data.table.gz (96/111/fopen): adding to final database dump
+0024.636 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_redirection_404.table.tmpr0.gz (97/111/fopen): adding to final database dump
+0024.637 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_redirection_404.table.gz (98/111/fopen): adding to final database dump
+0024.637 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_redirection_groups.table.tmpr3.gz (99/111/fopen): adding to final database dump
+0024.638 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_redirection_groups.table.gz (100/111/fopen): adding to final database dump
+0024.638 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_redirection_items.table.tmpr2.gz (101/111/fopen): adding to final database dump
+0024.639 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_redirection_items.table.gz (102/111/fopen): adding to final database dump
+0024.639 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_redirection_logs.table.tmpr0.gz (103/111/fopen): adding to final database dump
+0024.640 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_redirection_logs.table.gz (104/111/fopen): adding to final database dump
+0024.640 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_revslider_css.table.tmpr110.gz (105/111/fopen): adding to final database dump
+0024.640 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_revslider_css.table.gz (106/111/fopen): adding to final database dump
+0024.641 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_revslider_css_bkp.table.tmpr48.gz (107/111/fopen): adding to final database dump
+0024.641 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_revslider_css_bkp.table.gz (108/111/fopen): adding to final database dump
+0024.641 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_revslider_layer_animations.table.tmpr0.gz (109/111/fopen): adding to final database dump
+0024.642 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_revslider_layer_animations.table.gz (110/111/fopen): adding to final database dump
+0024.642 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_revslider_layer_animations_bkp.table.tmpr0.gz (111/111/fopen): adding to final database dump
+0024.643 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_revslider_layer_animations_bkp.table.gz (112/111/fopen): adding to final database dump
+0024.643 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_revslider_navigations.table.tmpr0.gz (113/111/fopen): adding to final database dump
+0024.643 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_revslider_navigations.table.gz (114/111/fopen): adding to final database dump
+0024.644 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_revslider_navigations_bkp.table.tmpr0.gz (115/111/fopen): adding to final database dump
+0024.644 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_revslider_navigations_bkp.table.gz (116/111/fopen): adding to final database dump
+0024.644 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_revslider_sliders.table.tmpr9.gz (117/111/fopen): adding to final database dump
+0024.645 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_revslider_sliders.table.gz (118/111/fopen): adding to final database dump
+0024.645 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_revslider_sliders_bkp.table.tmpr5.gz (119/111/fopen): adding to final database dump
+0024.646 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_revslider_sliders_bkp.table.gz (120/111/fopen): adding to final database dump
+0024.646 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_revslider_slides.table.tmpr25.gz (121/111/fopen): adding to final database dump
+0024.647 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_revslider_slides.table.gz (122/111/fopen): adding to final database dump
+0024.647 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_revslider_slides_bkp.table.tmpr20.gz (123/111/fopen): adding to final database dump
+0024.647 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_revslider_slides_bkp.table.gz (124/111/fopen): adding to final database dump
+0024.648 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_revslider_static_slides.table.tmpr8.gz (125/111/fopen): adding to final database dump
+0024.648 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_revslider_static_slides.table.gz (126/111/fopen): adding to final database dump
+0024.649 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_revslider_static_slides_bkp.table.tmpr5.gz (127/111/fopen): adding to final database dump
+0024.649 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_revslider_static_slides_bkp.table.gz (128/111/fopen): adding to final database dump
+0024.649 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_shortpixel_folders.table.tmpr0.gz (129/111/fopen): adding to final database dump
+0024.650 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_shortpixel_folders.table.gz (130/111/fopen): adding to final database dump
+0024.650 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_shortpixel_meta.table.tmpr0.gz (131/111/fopen): adding to final database dump
+0024.650 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_shortpixel_meta.table.gz (132/111/fopen): adding to final database dump
+0024.651 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wc_admin_note_actions.table.tmpr9607.gz (133/111/fopen): adding to final database dump
+0024.651 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wc_admin_note_actions.table.gz (134/111/fopen): adding to final database dump
+0024.651 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wc_admin_notes.table.tmpr67.gz (135/111/fopen): adding to final database dump
+0024.652 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wc_admin_notes.table.gz (136/111/fopen): adding to final database dump
+0024.652 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wc_customer_lookup.table.tmpr5.gz (137/111/fopen): adding to final database dump
+0024.653 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wc_customer_lookup.table.gz (138/111/fopen): adding to final database dump
+0024.653 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wc_download_log.table.tmpr0.gz (139/111/fopen): adding to final database dump
+0024.653 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wc_download_log.table.gz (140/111/fopen): adding to final database dump
+0024.654 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (141/111/fopen): adding to final database dump
+0024.654 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wc_order_coupon_lookup.table.gz (142/111/fopen): adding to final database dump
+0024.655 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wc_order_product_lookup.table.tmpr0.gz (143/111/fopen): adding to final database dump
+0024.655 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wc_order_product_lookup.table.gz (144/111/fopen): adding to final database dump
+0024.655 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wc_order_stats.table.tmpr0.gz (145/111/fopen): adding to final database dump
+0024.656 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wc_order_stats.table.gz (146/111/fopen): adding to final database dump
+0024.656 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wc_order_tax_lookup.table.tmpr1.gz (147/111/fopen): adding to final database dump
+0024.657 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wc_order_tax_lookup.table.gz (148/111/fopen): adding to final database dump
+0024.657 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wc_webhooks.table.tmpr0.gz (149/111/fopen): adding to final database dump
+0024.657 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wc_webhooks.table.gz (150/111/fopen): adding to final database dump
+0024.658 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wfblockediplog.table.tmpr1001.gz (151/111/fopen): adding to final database dump
+0024.658 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wfblockediplog.table.gz (152/111/fopen): adding to final database dump
+0024.659 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wfblocks7.table.tmpr0.gz (153/111/fopen): adding to final database dump
+0024.659 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wfblocks7.table.gz (154/111/fopen): adding to final database dump
+0024.659 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wfconfig.table.tmpr1001.gz (155/111/fopen): adding to final database dump
+0024.662 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wfconfig.table.gz (156/111/fopen): adding to final database dump
+0024.662 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wfcrawlers.table.tmpr1001.gz (157/111/fopen): adding to final database dump
+0024.663 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wfcrawlers.table.gz (158/111/fopen): adding to final database dump
+0024.663 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wffilechanges.table.tmpr1.gz (159/111/fopen): adding to final database dump
+0024.663 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wffilechanges.table.gz (160/111/fopen): adding to final database dump
+0024.664 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wffilemods.table.gz (161/111/fopen): adding to final database dump
+0024.670 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wfhits.table.tmpr287.gz (162/111/fopen): adding to final database dump
+0024.671 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wfhits.table.gz (163/111/fopen): adding to final database dump
+0024.671 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wfhoover.table.tmpr0.gz (164/111/fopen): adding to final database dump
+0024.672 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wfhoover.table.gz (165/111/fopen): adding to final database dump
+0024.672 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wfissues.table.tmpr288.gz (166/111/fopen): adding to final database dump
+0024.673 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wfissues.table.gz (167/111/fopen): adding to final database dump
+0024.673 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wfknownfilelist.table.gz (168/111/fopen): adding to final database dump
+0024.674 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wflivetraffichuman.table.tmpr1.gz (169/111/fopen): adding to final database dump
+0024.675 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wflivetraffichuman.table.gz (170/111/fopen): adding to final database dump
+0024.675 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wflocs.table.tmpr1001.gz (171/111/fopen): adding to final database dump
+0024.675 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wflocs.table.gz (172/111/fopen): adding to final database dump
+0024.676 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wflogins.table.tmpr68.gz (173/111/fopen): adding to final database dump
+0024.676 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wflogins.table.gz (174/111/fopen): adding to final database dump
+0024.677 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wfls_2fa_secrets.table.tmpr0.gz (175/111/fopen): adding to final database dump
+0024.677 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wfls_2fa_secrets.table.gz (176/111/fopen): adding to final database dump
+0024.677 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wfls_settings.table.tmpr1001.gz (177/111/fopen): adding to final database dump
+0024.678 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wfls_settings.table.gz (178/111/fopen): adding to final database dump
+0024.678 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wfnotifications.table.tmpr1001.gz (179/111/fopen): adding to final database dump
+0024.678 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wfnotifications.table.gz (180/111/fopen): adding to final database dump
+0024.679 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wfpendingissues.table.tmpr0.gz (181/111/fopen): adding to final database dump
+0024.679 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wfpendingissues.table.gz (182/111/fopen): adding to final database dump
+0024.680 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wfreversecache.table.tmpr1001.gz (183/111/fopen): adding to final database dump
+0024.680 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wfreversecache.table.gz (184/111/fopen): adding to final database dump
+0024.680 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wfsnipcache.table.tmpr0.gz (185/111/fopen): adding to final database dump
+0024.681 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wfsnipcache.table.gz (186/111/fopen): adding to final database dump
+0024.681 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wfstatus.table.tmpr3689.gz (187/111/fopen): adding to final database dump
+0024.681 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wfstatus.table.gz (188/111/fopen): adding to final database dump
+0024.682 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wftrafficrates.table.tmpr1.gz (189/111/fopen): adding to final database dump
+0024.682 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wftrafficrates.table.gz (190/111/fopen): adding to final database dump
+0024.683 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (191/111/fopen): adding to final database dump
+0024.683 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_woocommerce_api_keys.table.gz (192/111/fopen): adding to final database dump
+0024.683 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr3.gz (193/111/fopen): adding to final database dump
+0024.684 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_woocommerce_attribute_taxonomies.table.gz (194/111/fopen): adding to final database dump
+0024.684 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (195/111/fopen): adding to final database dump
+0024.684 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (196/111/fopen): adding to final database dump
+0024.685 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_woocommerce_log.table.tmpr0.gz (197/111/fopen): adding to final database dump
+0024.685 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_woocommerce_log.table.gz (198/111/fopen): adding to final database dump
+0024.686 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_woocommerce_order_items.table.tmpr0.gz (199/111/fopen): adding to final database dump
+0024.687 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_woocommerce_order_items.table.gz (200/111/fopen): adding to final database dump
+0024.687 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (201/111/fopen): adding to final database dump
+0024.687 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_woocommerce_payment_tokens.table.gz (202/111/fopen): adding to final database dump
+0024.688 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_woocommerce_sessions.table.tmpr5.gz (203/111/fopen): adding to final database dump
+0024.688 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_woocommerce_sessions.table.gz (204/111/fopen): adding to final database dump
+0024.688 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr0.gz (205/111/fopen): adding to final database dump
+0024.689 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_woocommerce_shipping_zone_locations.table.gz (206/111/fopen): adding to final database dump
+0024.689 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr0.gz (207/111/fopen): adding to final database dump
+0024.690 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_woocommerce_shipping_zone_methods.table.gz (208/111/fopen): adding to final database dump
+0024.690 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_woocommerce_shipping_zones.table.tmpr0.gz (209/111/fopen): adding to final database dump
+0024.690 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_woocommerce_shipping_zones.table.gz (210/111/fopen): adding to final database dump
+0024.691 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (211/111/fopen): adding to final database dump
+0024.691 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_woocommerce_tax_rate_locations.table.gz (212/111/fopen): adding to final database dump
+0024.691 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_woocommerce_tax_rates.table.tmpr0.gz (213/111/fopen): adding to final database dump
+0024.692 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_woocommerce_tax_rates.table.gz (214/111/fopen): adding to final database dump
+0024.692 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wpfm_backup.table.tmpr0.gz (215/111/fopen): adding to final database dump
+0024.693 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_wpfm_backup.table.gz (216/111/fopen): adding to final database dump
+0024.693 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_yoast_seo_links.table.tmpr0.gz (217/111/fopen): adding to final database dump
+0024.693 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_yoast_seo_links.table.gz (218/111/fopen): adding to final database dump
+0024.694 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_yoast_seo_meta.table.tmpr0.gz (219/111/fopen): adding to final database dump
+0024.694 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db-table-wp_yoast_seo_meta.table.gz (220/111/fopen): adding to final database dump
+0024.708 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db.gz: finished writing out complete database file (3356.5 KB)
+0024.741 (0) Total database tables backed up: 111 (backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db.gz, size: 3437215, sha1: a100f298ffcb03f2a228be408974c08d4b9cfa2d, sha256: 88267f8813c0525e7b82a8d7a5525d4e125473d0d0a8ecf41649ae7ed6e34cc5)
+0024.744 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0024.745 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0024.745 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0024.746 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-others.zip: others: This file has not yet been successfully uploaded: will queue
+0024.746 (0) backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db.gz: db: This file has not yet been successfully uploaded: will queue
+0024.746 (0) Saving backup history. Total backup size: 183.2 MB
+0024.747 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0024.749 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0024.749 (0) No remote despatch: user chose no remote backup service
+0024.749 (0) Recording as successfully uploaded: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip
+0024.750 (0) Deleting zip manifest (backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-plugins.zip.list.tmp)
+0024.751 (0) Recording as successfully uploaded: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-themes.zip
+0024.752 (0) Deleting zip manifest (backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-themes.zip.list.tmp)
+0024.752 (0) Recording as successfully uploaded: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip
+0024.753 (0) Deleting zip manifest (backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-uploads.zip.list.tmp)
+0024.754 (0) Recording as successfully uploaded: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-others.zip
+0024.755 (0) Deleting zip manifest (backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-others.zip.list.tmp)
+0024.755 (0) Recording as successfully uploaded: backup_2021-11-18-0613_Chennai_Spine_Care_6fe1ed562dc7-db.gz
+0024.757 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0024.758 (0) Number of backup sets in history: 1; groups (db): 1
+0024.758 (0) Examining (for databases) backup set with group_id=0, nonce=6fe1ed562dc7, datestamp=1637216011 (Nov 18 2021 06:13:31)
+0024.758 (0) This backup set is the backup set just made, so will not be deleted.
+0024.758 (0) Number of backup sets in history: 1; groups (files): 1
+0024.759 (0) Examining (for files) backup set with nonce=6fe1ed562dc7, datestamp=1637216011 (Nov 18 2021 06:13:31)
+0024.759 (0) This backup set is the backup set just made, so will not be deleted.
+0024.759 (0) This backup set is the backup set just made, so will not be deleted.
+0024.759 (0) This backup set is the backup set just made, so will not be deleted.
+0024.759 (0) This backup set is the backup set just made, so will not be deleted.
+0024.759 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0024.760 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0024.761 (0) Resume backup (6fe1ed562dc7, 0): finish run
+0024.762 (0) Decremented the semaphore (fd) by 1
+0024.763 (0) Semaphore (fd) unlocked
+0024.763 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0024.765 (0) No email will/can be sent - the user has not configured an email address.
+0024.765 (0) The backup apparently succeeded and is now complete

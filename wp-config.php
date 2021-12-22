@@ -16,11 +16,11 @@ define( 'WP_CACHE', true );
  */
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'vzgygdaqwn');
+define('DB_NAME', 'chennais_d');
 /** MySQL database username */
-define('DB_USER', 'vzgygdaqwn');
+define('DB_USER', 'chennais_wp');
 /** MySQL database password */
-define('DB_PASSWORD', '9S3sTr8EaY');
+define('DB_PASSWORD', 'chennais_wp123');
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
 /** Database Charset to use in creating database tables. */
